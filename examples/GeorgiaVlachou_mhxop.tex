@@ -1,0 +1,172 @@
+\documentclass[11pt,a4paper]{moderncv}
+
+% moderncv themes
+%\moderncvtheme[blue]{casual}                  % optional argument are 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+\moderncvtheme[purple]{casual}                % idem
+
+% character encoding
+%\usepackage[english,greek]{babel}                   % replace by the encoding you are using
+\usepackage{epsfig}
+\usepackage{rotating}
+\usepackage{ucs}
+\usepackage[english,greek]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{overpic}
+\newcommand{\gr}{\selectlanguage{greek}}
+\newcommand{\en}{\selectlanguage{english}} 
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+%\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+% Hyperlinks
+
+%\usepackage{hyperref}								% to use hyperlinks
+%\definecolor{linkcolour}{rgb}{0,0.2,0.6}			% hyperlinks setup
+%\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+
+% personal data
+\selectlanguage{greek}
+\familyname{Βλάχου}
+\firstname{Γεωργία}
+
+%\title{Resumé title (optional)}               % optional, remove the line if not wanted
+\address{Μάρκου Μπότσαρη 32}{73135 Χανιά,Κρήτη}    % optional, remove the line if not wanted
+%\mobile{+30 698 4385057}                    % optional, remove the line if not wanted
+\phone{+30 694 7445438}                      % optional, remove the line if not wanted
+%\fax{fax (optional)}                          % optional, remove the line if not wanted
+\email{\latintext{jvlahou@gmail.com}}                      % optional, remove the line if not wanted
+%\email{\href{mailto:s.dakourou@gmail.com}{s.dakourou@gmail.com}}                      % optional, remove the line if not wanted
+%\homepage{\href{http://gr.linkedin.com/pub/stefania-dakourou/41/21a/396}{LinkedIn Profile}}                % optional, remove the line if not wanted
+%\extrainfo{additional information (optional)} % optional, remove the line if not wanted
+%\photo[64pt][0.4pt]{picture}                         % '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file; optional, remove the line if not wanted
+%\quote{Some quote (optional)}                 % optional, remove the line if not wanted
+
+% to show numerical labels in the bibliography; only useful if you make citations in your resume
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+\section{Εκπαίδευση}
+%\cventry{year--year}{Degree}{Institution}{City}{\textit{Grade}}{Description}
+\cventry{2010}{Πτυχίο Τμήμα Ηλεκτρονικών Μηχανικών και Μηχανικών Η/Υ}{Πολυτεχνείο Κρήτης}{}{\textit{7.46/10}}{}  
+\cventry{2003}{Απολυτήριο Λυκείου}{}{}{\textit{19.3/20}}{Υποτροφία πρωτείας.}
+
+
+
+
+\section{Τρέχουσες Σπουδές}
+\cventry{2011}{Μεταπτυχιακές Σπουδές}{Πολυτεχνείο Κρήτης,Τμήμα Ηλεκτρονικών Μηχανικών και Μηχανικών Η/Υ}{}{}{}
+
+
+\section{Ξένες Γλώσσες}
+\cvlanguage{Ελληνικά}{Μητρική}{}
+\cvlanguage{Αγγλικά}{Άπταιστα}{{\latintext{ECPE  Proficiency in English, University of Michigan}}, 2008}
+\cvlanguage{Γερμανικά}{Καλά}{\latintext{Zertifikat Deutsch, Goethe-Institut (GI) 2006}}
+
+
+{\latintext{
+\section{Computer skills}
+\cvline{Systems}{Ubuntu Linux, Unix, Windows}
+\cvline{System Programming}{C/C++, Python, Linux Shell Scripting(BASH), Grid-Computing Shell Scripting, Java, Enterprise Java, Perl, VHDL}
+\cvline{Programming Enviroments}{Netbeans, Eclipse, Anjuta, Xilinx}
+\cvline{Web Developing}{Javascript, XML, PHP, MySQL, SQL Server, Apache, Content Management Systems, Joomla, Drupal, Wordpress, Enterprise Java-jsf (J2EE)}
+\cvline{3D Graphics}{Blender 3D Design Platform, OpenGL, Processing, VRML, 3D Blender Game Engine, Inkscape, Gimp}
+\cvline{Other}{MATLAB, LATEX, SVN, GIT}\newline
+}}
+
+\newpage 
+\section{{\greektext{Εμπειρία}}}
+\cventry{2010-2013}{Ανάπτυξη και κατασκευή ιστοσελίδων βασισμένη σε τεχνολογίες {\latintext{Content Management Systems (Joomla, Drupal, Wordpress), \& PHP}}}
+{}{}{}{} \newline{}%
+\cventry{Φεβρουάριος 2011-Ιούνιος 2011}{Βοηθός Μαθήματος-Εργαστηριακό προσωπικό}{Τμήμα ΗΜΜΥ Πολυτεχνείο Κρήτης}{Χανιά}{}{Υπολογιστική Γεωμετρία-Μάθημα Επιλογής 4ου έτους} \newline{}%
+\cventry{Σεπτέμβριος 2011-Φεβρουάριος 2012}{Βοηθός Μαθήματος-Εργαστηριακό προσωπικό}{Τμήμα ΗΜΜΥ Πολυτεχνείο Κρήτης}{Χανιά}{}{Λειτουργικά Συστήματα-Υποχρεωτικό Μάθημα 3ου έτους} \newline{}%
+\cventry{Σεπτέμβριος 2012-Φεβρουάριος 2013}{Βοηθός Μαθήματος-Εργαστηριακό προσωπικό}{Τμήμα ΗΜΜΥ Πολυτεχνείο Κρήτης}{Χανιά}{}{Λειτουργικά Συστήματα-Υποχρεωτικό Μάθημα 3ου έτους} \newline{}%
+\cventry{Σεπτέμβριος 2012-Φεβρουάριος 2013}{Διδάσκων Μαθήματος}{Τμήμα Τεχνικών Κατασκευής \& Σχεδίασης Ιστοσελίδων, Δημόσιο ΙΕΚ Χανίων}{Χανιά}{}{Λειτουργικά Συστήματα Ι Εργαστήριο-Υποχρεωτικό Μάθημα 1ου εξαμήνου} \newline{}%
+\cventry{Φεβρουάριος 2013-Ιούνιος 2013}{Διδάσκων Μαθήματος}{Τμήμα Τεχνικών Κατασκευής \& Σχεδίασης Ιστοσελίδων, Δημόσιο ΙΕΚ Χανίων}{Χανιά}{}{Λειτουργικά Συστήματα ΙΙ Εργαστήριο-Υποχρεωτικό Μάθημα 2ου εξαμήνου} \newline{}%
+\cventry{Φεβρουάριος 2013-Αύγουστος 2013}{Επιστημονικός Συνεργάτης, με ειδικότητα Προγραμματιστής}{Τμήμα Μηχανικών Παραγωγής κ' Διοίκησης, Πολυτεχνείο Κρήτης}{Χανιά}{}{Ερευνητικό πρόγραμμα \latintext{TRAMAN21 (Traffic Management in the 21st Century,http://www.traman21.tuc.gr/)}} \newline{}%
+
+
+
+\section{Εργασίες {\latintext{Projects}}}
+\cventry{Φεβρουάριος 2011}{Ειδικά Θέματα Βάσεων Δεδομένων}{Σχεδίαση και προσομοίωση μιας {\latintext{Cassandra like (Google DB for facebook)}} κατανεμημένης βάσης με τοπολογία κατανεμημένου δικτύου βασισμένη στο {\latintext{P-Grid Peer to Peer}} πρωτόκολλο} \newline{}\newline%
+\cventry{Σεπτέμβριος 2012}{Ασύρματα Δίκτυα Αισθητήρων}{Ανάπτυξη και προσομοίωση του πρωτοκόλλου επικοινωνίας και διάταξης ασύρματων αισθητήρων 
+{\latintext{TAG}} με χρήση του εργαλείου {\latintext{TinyOS}}} \newline{} \newline%
+\cventry{Ιούνιος 2012}{Κατανεμημένα Συστήματα Υπολογιστών}{Ανάπτυξη και σχεδίαση ενός ολοκληρωμένου συστήματος {\latintext{on-line}} καταχωρήσεων πτήσεων, κρατήσεων εισητηρίων, εξόφλησης κρατήσεων και διαδικασίας {\latintext{Web Check-in}} χρησιμοποιώντας τεχνολογία {\latintext{Enterprise Java (J2EE)}}} \newline{}\newline{}\newline%
+\cventry{Ιανουάριος 2012}{Ανάπτυξη \& Διαχείριση Πολυμέσων}{Ανάπτυξη και Υλοποίηση αλγορίθμων ανάκτησης πληροφορίας σε τεχνολογίες μηχανών αναζήτησης, και υλοποίηση {\latintext{Data Clustering}} με βάση τον αλγόριθμο {\latintext{K Means}} } \newline{}\newline{}\newline%
+
+\newpage 
+
+\section{Διατριβές}
+\cvline{Περιγραφή Διπλωματικής Εργασίας}{
+\small \textbf{Σχεδίαση αλγορίθμων επαναδρομολόγησης επερωτήσεων με στόχο την ομοιόμορφη 
+κανανομή του φόρτου σε δίκτυα που ακολουθούν το {\latintext{P-Grid Peer to Peer}} πρωτόκολλο.}
+Οι αλγόριθμοι που αναπτύχθηκαν επιτυγχάνουν ομοιόμορφη κατανομή της ροής πακέτων δεδομένων στο δίκτυο, 
+μέσω δυναμικής επαναδρομολόγησης πακέτων, αξιοποιώντας αποφορτισμένα {\latintext{links}}. 
+Προτείνουμε και εισαγάγουμε κάποια νέα μεγέθη μέτρησης του φόρτου ενός κόμβου καθώς και κάποιες νέες καταστάσεις ενός κόμβου με βάση
+τον φόρτο του. Τα μεγέθη αυτά επαναπροσδιορίζουν real-time τα μονοπάτια δρομολόγησης επερωτήσεων στο δίκτυο. 
+Η διαδικασία δρομολόγησης επερωτήσεων στο προτεινόμενο πρωτόκολλο εξαρτάται πλέον και από τον φόρτο καθενός κόμβου ξεχωριστά, πέραν απλά
+της θέσης του στην τοπολογία του δικτύου όπως συμβαίνει στα παραδοσιακά P2P δίκτυα.
+Οι προτεινόμενοι αλγόριθμοι καταφέρνουν μείωση του φόρτου στους κόμβους του δικτύου πάνω από 50\%, και αφορούν δίκτυα που ακολουθούν
+το {\latintext{P-Grid Peer to Peer}} πρωτόκολλο, με δυνατότητες γενίκευσης και σε ανάλογα πρωτόκολλα κατανεμημένων δικτύων. 
+Τέλος βελτιώνουν το {\latintext{upload}} και {\latintext{download bandwith}} κάθε κόμβου περισσότερο από 50\%. }
+
+\cvline{Περιγραφή Μεταπτυχιακής Διατριβής}{\small \textbf{Εργαλεία Ανάπτυξης Λογισμικού για μοντελοποίηση, προσομοίωση και επίβλεψη Δικτύων Ασύρματων Αισθητήρων.}
+Στόχος της μεταπτυχιακής διατριβής είναι η σχεδίαση, ανάπτυξη και υλοποίηση ενός εργαλείου προσομοίωσης για την
+πλατφόρμα {\latintext{WSN-DPCM}}, στα πλαίσια του αντίστοιχου ευρωπαϊκού ερευνητικού. 
+Η πλατφόρμα {\latintext{WSN-DPCM}} είναι ένα  {\latintext{Web-Service based}} ολοκληρωμένο περιβάλλον σχεδίασης,
+προσομοίωσης, ελέγχου και τελικά εγκατάστασης στο χώρο, Δικτύων Ασύρματων
+Αισθητήρων. Στα πλαίσια της συγκεκριμένης μεταπτυχιακής διατριβής υλοποιούμε επίσης 
+το {\latintext{Web Service layer}} του προσομοιωτή με πλήρες {\latintext{on line}} γραφικό
+περιβάλλον διεπαφής χρήστη, που παρέχει λειτουργίες εισόδου δεδομένων, επεξεργασίας δεδομένων και προβολής αποτελεσμάτων
+στον χρήστη.    } 
+
+
+\section{Άρθρα προς δημοσίευση}
+\cvline{}{{\latintext{\textbf{Rerouting Algorithms for Dynamic Traffic Balancing in P-Grid Peer to Peer Protocol.} Julie Vlahou, Vassilis Samoladas.}}}\newline
+\cvline{}{{\latintext{\textbf{General reouting techniques for Dynamic run-time Load Balancing in Peer to Peer Networks.} Julie Vlahou, Vassilis Samoladas.}}}\newline\newline
+
+\newpage 
+\section{Ερευνητικά Ενδιαφέροντα}
+\cvline{}{Κατανεμημένα Δίκτυα Υπολογιστών, Εργαλεία Ανάπτυξης Λογισμικού,
+Γραφική ,{\latintext{3D Graphic Arts and Tools}}, Εργαλεία ανάπτυξης διαδικτυακών εφαρμογών.}
+
+
+
+%\subsection{}
+%\cvline{VHDL}{Implementation of Booth multiplier and MESI protocol}
+%\cvline{Assembly}{Implementation of Virtual Mode for x86 processors}
+%\cvline{PSpice}{Implementation of parallel multiplier based on Wallace tree adders}
+%\cvline{C}{Development of a client management program implementing a hashing algorithm}
+
+
+
+\section{Γενικά Ενδιαφέροντα}
+\cvline{}{Μέλος ομάδας Ελεύθερου Λογισμικού Λογισμικού Ανοιχτού Κώδικα, Ε.Λ.Λ.Α.Κ Πολυτεχνείου Κρήτης ({\latintext{http://www.ellak.tuc.gr}}).}
+%\cvline{}{Μέλος ομίλου μελέτης επαναστατικής θεωρίας ({\latintext{http://www.omilos.tuc.gr/}}). }
+\cvline{}{Μέλος Θεατρικής ομάδας Πολυτεχνείου Κρήτης.}
+\cvline{}{Ελεύθερο Λογισμικό, Μουσική, Θέατρο, Φιλισοφία, Ιστορία των Επιστημών, {\latintext{Digital Graphic Arts.}}}
+
+\section{Προσωπικές Πληροφορίες}
+\cventry{Τόπος Γέννησης}{Θεσσαλονίκη}{}{}{}{} \newline{}%
+\cventry{Τόπος Καταγωγής}{Σέρρες}{}{}{}{} \newline{}%
+\cventry{Ημερομηνία Γέννησης}{5 Νοεμβρίου 1985}{}{}{}{} \newline{}%
+
+
+%\cvcomputer{Basic}{UML, HTML, C++, Tcl, System C} {}{}
+%\cvcomputer{Intermediate}{C, Matlab, Assembly(Intel x86)}{}{}
+%\cvcomputer{Expert}{VHDL, nML}{}{}
+
+\end{document}

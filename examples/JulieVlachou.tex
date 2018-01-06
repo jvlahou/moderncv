@@ -1,0 +1,179 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2012 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}   % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{casual}                        % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                          % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}    % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+%\usepackage[utf8]{inputenc}                  % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                         % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[
+  includehead,
+  headheight = 35mm,
+  footskip = \dimexpr\headsep+\ht\strutbox\relax,
+  tmargin = 0mm,
+  bmargin = \dimexpr30mm+3\ht\strutbox\relax,
+]{geometry}%\setlength{\hintscolumnwidth}{3cm}           % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}      % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\firstname{Georgia (Julie)}
+\familyname{Vlachou}
+\title{Software Engineer, Curriculum Vitae}               % optional, remove the line if not wanted
+\address{Kallidromioy 	48, Athens, Greece}{11473}    % optional, remove the line if not wanted
+\mobile{+30~694~744~5438}                     % optional, remove the line if not wanted
+\phone{+210~3813~441}                      % optional, remove the line if not wanted
+%\fax{+3~(456)~789~012}                        % optional, remove the line if not wanted
+\email{jvlahou@gmail.com}                          % optional, remove the line if not wanted
+\homepage{jvlahou.wixsite.com/julievlachou}                    % optional, remove the line if not wanted
+%\extrainfo{additional information}            % optional, remove the line if not wanted
+\photo[64pt][0.4pt]{picture}                  % '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file; optional, remove the line if not wanted
+
+\begin{document}
+
+\makecvtitle
+
+\section{Education}
+\cventry{2003--2010}{Dept. of Electronic \& Computer Engineering}{Technical University of Crete}{Chania}{\textit{7.46/10}}{}  % arguments 3 to 6 can be left empty
+\cvline{}{}
+\cventry{2011-2015}{M.Sc.}{Technical University of Crete, Dept. of Electronic \& Computer Engineering}{}{}{}
+
+\cvline{}{}
+
+
+\section{Computer skills}
+\cvline{}{}
+\cvline{Systems}{Ubuntu Linux, Unix, Windows}
+\cvline{}{}
+\cvline{System Programming}{C/C++, Python, Java,  C\#, Linux Shell Scripting(BASH), Grid-Computing Shell Scripting, Flex, Bison, Perl}
+\cvline{}{}
+\cvline{Web Application Frameworks}{Enterprise Java (J2EE), ASP.NET MVC, Apache HTTP Server, GlassFish \& Tomcat application servers.}
+\cvline{}{}
+\cvline{Software Development Frameworks}{ Qt UI Framework, Eclipse Modeling Framework}
+\cvline{}{}
+\cvline{Database Management Systems}{ MySQL Oracle, PostgreSQL, Microsoft SQL Server}
+\cvline{}{}
+\cvline{NoSQL Databases}{Apache CouchDB, Apache Cassandra Database, Oracle NoSQL Database}
+\cvline{}{}
+\cvline {Web Design}{Content Management Systems, Joomla, Drupal}
+\cvline{}{}
+\cvline{Web Languages \& Standards}{Javascript, PHP, HTML, JSON, XML}
+\cvline{}{}
+\cvline{Programming Environments}{Netbeans, Eclipse, JetBrains CLion, QtCreator, Microsoft Visual Studio}
+\cvline{}{}
+\cvline{3D Graphics}{Blender 3D Design Platform, OpenGL, Processing, VRML, 3D Blender Game Engine, Inkscape, Gimp}
+\cvline{}{}
+\cvline{Other}{ GIT, SVN, Apache Maven, Agile Software Development, JIRA, Confluence, Bitbucket, LATEX, Robot Operating System (ROS)}
+
+
+\cvline{}{}
+\section{Experience}
+\cventry{October 2016--Present}{Software Engineer at Intralot}{\url{http://www.intralot.com/}}{}{}
+{\small INTRALOT is a leading gaming solutions supplier and operator active in 55 regulated jurisdictions around the globe.
+Working as a Software Engineer in the LOTOS OS, an innovative and comprehensive gaming and
+transaction processing platform, written in C and C++11, which is the company's core transactional system. LOTOS O\/S is based on an open architecture, with modular 
+feature-rich applications that offer dynamic and static reporting, accounting and financial management, 
+which can be activated as required by retailer's needs and requirements. As a Software Engineer in
+Intralot main responsibilities are to develop new functionality and modules which conform to quality and performance 
+standards, according to the client's requirements, develop automated unit tests as part of the development process 
+and  Support QA in the scope of FAT and UAT support by debugging the developed software, in a timely fashion.
+All the above in accordance with  company's internal development processes and 
+workflows, organizational structure and hierachies.}%
+\cventry{January 2016--July 2016}{Software Developer at Myrmex, Inc}{\url{http://www.myrmex-inc.com/}}{}{}{\small Myrmex Inc is a greek start up company targeted in logistics, robotics and material handling. Worked as a member of the engineer team in building a fully autonomous system consisted of robots and server nodes based in ROS (Robotic Operating System), using C++14 and boost template programming. Also worked in building GUI's and User Interfaces for end users and also for system administrative tasks.}%
+\cventry{January 2011--September 2015}{Research Associate \& Python Back-end Developer}{Telecommunications System Institute, Technical University Of Crete, Artemis project WSN-DPCM, \url{http://www.wsn-dpcm.eu/}}{}{}{\small A code generation service for simulating Wireless Sensor Networks has been developed in Python language, as part of an overall Wireless Sensor Network design platform. 
+HTTP Rest API, object annotation, concurrency control and model to model transformation technologies have been used and implemented, and integration issues with the rest platform tools-modules have been covered and solved. System technical configuration, setup and monitoring has been implemented.}%
+\cventry{January 2014--October 2015}{Research Associate \& ASP.NET Software Developer}{Dept. Of Mineral Resources Engineering, Technical University Of Crete, ISTRIA project, \url{http://www.tuc.gr/4023.html}}{}{}{ \small Development of an integrated software platform for
+rockfall detection in a field of interest. The software platform has been developed using the ASP.NET MVC framework, MySQL was used for the system's database,  python language and Matlab platform were used for data filtering and processing. 
+The platform's main functionality includes: Real time data collection from system's instruments, real time data filtering \& processing, data persistence in the platform's database, event verification algorithms, instant notification (via email-sms) functionality, remote system real-time monitoring via a Web Interface. System technical configuration, setup and monitoring has been implemented. }%
+
+\cventry{January 2012--August 2012}{Research Associate}{Dept. Of Management \& Production Engineering, Technical University Of Crete, TRAMAN 21 project(Traffic Management in the 21st Century, \url{http://www.traman21.tuc.gr/}}{}{}{\small Existing Road Traffic \& Network simulation tools-platforms have been reviewed, evaluated and examined, so as to select the most ideal according to project's needs. 
+Algorithms used for congestion management in Distributed Computer Networks, have been proposed and transformed, so as to be used and applied in solving congestion management issues in road networks. Also the website of the project has been developed.}%
+
+\cvline{}{}
+\section{Teaching Experience}
+\cventry{September 2011-September 2015}{Laboratory Teaching Staff}{Dept. of Electronic \& Computer Engineering}{Technical University of Crete}{Chania}{Operating Systems-5th Semester class, Computational Geometry-8th Semester class}%
+%\cventry{February 2013-June 2013}{Teaching Staff}{Dept. of Web Design, Public IEK of Chania}{Chania}{}{Operating Systems 2 laboratory-2nd Semester class} %
+\cventry{September 2012-September 2013}{Teaching Staff}{Dept. of Web Design, Public IEK of Chania}{Chania}{}{Operating Systems 1\&2 laboratory-1st\&2nd Semester class} %
+%\cventry{September 2012-February 2013}{Laboratory Teaching Staff}{Dept. of Electronic \& Computer Engineering}{Technical University of Crete}{Chania}{Operating Systems-5th Semester class}%
+%\cventry{September 2011-February 2012}{Laboratory Teaching Staff}{Dept. of Electronic \& Computer Engineering}{Technical University of Crete}{Chania}{Operating Systems-5th Semester class}%
+%\cventry{February 2011-June 2011}{Laboratory Teaching Staff}{Dept. of Electronic \& Computer Engineering}{Technical University of Crete}{Chania}{Computational Geometry-8th Semester class}%
+
+
+\cvline{}{}
+\section{Major Projects during Postgraduate Studies}
+\cventry{September 2012}{Wireless Sensor Networks}{Development of the WSN TAG protocol using the TinyOS (\url{http://www.tinyos.net/}) platform.}{}{}{}
+\cventry{June 2012}{Distributed Computer Systems}{Design and development of an integrated flight booking system. The system's functionality includes: flight registration, flight \& ticket reservation, on-line check in and payment. The system has been developed using the Enterprise Java (J2EE) web application framework}{}{}{}
+\cventry{January 2012}{Multimedia Systems}{Development of a web search engine based in the probabilistic and boolean data retrieval algorithms, using the K Means data clustering algorithm for data classification}{}{\newline \textit{Design and development of an knowledge representation ontology, for modelling and representing a Wireless Sensor Network using the OWL language}}{}
+\cventry{February 2011}{Advanced Database System Design}{Development of a C++ simulator for a Cassandra like (Google DB for facebook \href{https://www.facebook.com/notes/facebook-engineering/cassandra-a-structured-storage-system-on-a-p2p-network/24413138919}{"link"}) distributed database, based in the P-Grid Peer to Peer protocol network topology}{}{}{}
+
+\cvline{}{}
+\section{Undergraduate Thesis}
+\cvline{October 2010}{\textbf{Efficient rerouting algorithms for traffic balancing in the P-Grid Peer to Peer Protocol.}}{
+\small Current research introduced
+new traffic balancing methods for the P-Grid P2P protocol. For the reasearch needs a network simulator and the proposed balancing algorithms were developed in C++,
+while the result evaluation has been implemented in Python and Matplotlib in particular. The proposed methods create alternative routing paths during the
+query search, in order to avoid an additional load accumulation
+in already overloaded peers. New metrics for
+a peer's load are introduced, and new peer load states are defined, which affect
+and redefine the forwarding process. The routing process depends not only
+on the network's topology but also on the load of each network
+participant. The proposed algorithms achieve throughput gain up to 50\% in download
+and up to 30\% in upload.}{}{}{}
+%\newline
+%\break
+%\newline
+\cvline{}{}
+\section{Master Thesis}
+\cvline{November 2015}{\textbf{A web \& system code generation application service for simulating Wireless Sensor Networks.}}{
+\small A RESTFUL web service called NetSim was developed as a module of an integrated WSN design platform called WSN-DPCM (\url{http://www.wsn-dpcm.eu/}).
+The NetSim web service, the back-end, and the code generator were written in Python (all from scratch), the front-end was developed in Angular and the persistence unit in PostgreSQL.
+NetSim performs all the tasks necessary for simulating a Wireless Sensor Network using the Castalia simulator, in 
+integration with the overall platform framework.
+NetSim main features are: The on-line web service for submitting simulations and for retrieving all simulation related data from the rest platform tools (using Bottle: Python Web Framework, NOSql CouchDB, the resources are encoded in JSON format, the ORM to PostgreSQL entities was implemented using Python Psycopg connector). A scheduler
+for performing simultaneous job-simulation executions (written Python). The code generation process, where the user defined input is mapped to the
+Castalia simulator (written in Python).The model oriented architecture, where all the parameters are classified by their type (not by their name), using code dependency injection
+and code annotation techniques.  }{}{}{}
+
+\cvline{}{}
+\section{Languages}
+\cvitemwithcomment{Greek}{excellent}{Native}
+\cvitemwithcomment{English}{excellent}{ECPE  Proficiency in English, University of Michigan, 2008}
+\cvitemwithcomment{German}{Good}{Zertifikat Deutsch, Goethe-Institut (GI) 2006}
+\cvitemwithcomment{French}{Good}{High\-school lessons}
+
+\cvline{}{}
+\section{Research Interests}
+\cvlistitem{Web service technologies}
+\cvlistitem{Event-driven \& Model-oriented programming}
+\cvlistitem{Distributed systems, Concurrency Control, Multitasking}
+\cvlistitem{P2P Network congestion management}
+
+\cvline{}{}
+\section{General Interests}
+\cvlistitem{Free Software applications}
+\cvlistitem {Digital Graphic Arts}
+\cvlistitem {Music, Cinema, Theater}
+\cvlistitem {Philosophy, Literature}
+\cvlistitem {Ashtanga Yoga, Tai Chi Chuan}
+
+
+
+
+\clearpage
+
+\end{document}
+
+
+%% end of file `template.tex'.
